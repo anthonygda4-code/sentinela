@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="dddd.css">
+
+    <title>Atendimento Psicológico</title>
+
+    <link rel="shortcut icon" href="/Projeto Sentinela/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="text-center mb-4">
+        <h2>Atendimento Psicológico</h2>
+        <p class="text-muted">Registro e acompanhamento psicológico</p>
+    </div>
+
+    <br>
+
+    <div class="row">
+
+        <div class="col-md-7">
+
+            <div class="card p-4 shadow">
+
+                <h5 class="mb-3">Dados do atendimento</h5>
+
+                <div class="mb-3">
+                    <label class="form-label">Paciente</label>
+
+                    <input type="text"
+                        class="form-control"
+                        placeholder="Ex: João da Silva">
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            Data da sessão
+                        </label>
+
+                        <input type="date"
+                            class="form-control">
+
+                    </div>
+
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+                            Motivo da consulta
+                        </label>
+
+                        <input type="text"
+                            class="form-control"
+                            placeholder="Ex: Ansiedade">
+
+                    </div>
+
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+
+                            <label class="form-label">
+                                Modalidade
+                            </label>
+
+                            <select class="form-select">
+
+                                <option selected disabled>
+                                    Selecione
+                                </option>
+
+                                <option class="option">
+                                    Presencial
+                                </option>
+
+                                <option>
+                                    Online
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="col-md-6 mb-3">
+
+                            <label class="form-label">
+                                Duração (minutos)
+                            </label>
+
+                            <input type="number"
+                                class="form-control">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Observações Clínicas
+                    </label>
+
+                    <textarea class="form-control"
+                        rows="3"></textarea>
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Psicólogo responsável
+                    </label>
+
+                    <input type="text"
+                        class="form-control"
+                        placeholder="Nome do Psicólogo - CRP">
+
+                </div>
+
+
+                <button class="btn btn-primary w-100">
+
+                    <a href="">
+
+                        <strong>
+                            Registrar Atendimento
+                        </strong>
+
+                    </a>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- ALERTAS E REGRAS -->
+
+        <div class="col-md-5">
+
+            <!-- Alertas -->
+
+            <div class="card p-3 shadow mb-3">
+
+                <h6>
+                    Alertas de Acompanhamento
+                </h6>
+
+
+                <div class="alert alert-danger">
+
+                    Atenção: acompanhamento psicológico pendente
+
+                </div>
+
+
+                <div class="alert alert-warning">
+
+                    Próxima sessão ainda não agendada
+
+                </div>
+
+
+                <div class="alert alert-info">
+
+                    Evolução do paciente registrada
+
+                </div>
+
+            </div>
+
+
+            <!-- Regras -->
+
+            <div class="card p-3 shadow">
+
+                <h6>
+                    Regras do Sistema
+                </h6>
+
+                <ul class="mb-0">
+
+                    <li>
+                        Registrar dados do paciente
+                    </li>
+
+                    <li>
+                        Registrar evolução das sessões
+                    </li>
+
+                    <li>
+                        Manter informações clínicas atualizadas
+                    </li>
+
+                    <li>
+                        Registrar identificação do psicólogo
+                    </li>
+
+                    <li>
+                        Manter histórico de atendimentos
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HISTÓRICO -->
+
+    <div class="card p-4 shadow mt-4">
+
+        <h5>
+            Histórico de Atendimentos
+        </h5>
+
+
+        <div class="historico">
+
+            <strong>
+                Sessão de Psicologia
+            </strong>
+
+            <br>
+
+            Presencial | 50 minutos
+
+            <br>
+
+            <small>
+                Psicólogo - CRP 12345
+            </small>
+
+        </div>
+
+
+        <div class="historico">
+
+            <strong>
+                Sessão de Psicologia
+            </strong>
+
+            <br>
+
+            Online | 50 minutos
+
+            <br>
+
+            <small>
+                Psicólogo - CRP 67890
+            </small>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

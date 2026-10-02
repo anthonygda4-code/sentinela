@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fcb0bd;
+    min-height: 100vh;
+    /* Ativa o flexbox */
+    display: flex;
+    /* Centraliza o painel horizontal */
+    justify-content: center;
+    /* Centraliza o painel vertical */
+    align-items: center;
+}
+
+
+.painel{
+    /* Ocupa 95% da largura */
+    width: 95vw;
+    height: 90vh;
+    display: flex;
+    gap:20px
+}
+
+
+.lado-esquerdo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lado-direito{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.card{
+background-color: aliceblue;
+border-radius: 20px;
+padding: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+    
+}
+
+.guiche {
+height: 40%;
+}
+
+.guiche h2{
+font-size: 2.5vw;
+}
+
+.numero {
+font-size: 8vw;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.historico {
+height: 60%;
+justify-content: flex-start;
+}
+
+.historico {
+font-size: 2vw;
+margin-bottom: 25px;
+}
+
+.chamada {
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+border-bottom: 2px solid #ddd;
+font-size: 1.5vw;
+}
+
